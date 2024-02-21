@@ -20,7 +20,7 @@
     width: 357px;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 900px) {
     .container-seguir {
         margin-top: 30px;
         display: flex;

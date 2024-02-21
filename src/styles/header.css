@@ -27,7 +27,7 @@ header nav ul {
     gap: 30px;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 900px) {
     header {
         gap: 40px;
         justify-content: flex-end;
