@@ -114,10 +114,20 @@
         flex-wrap: wrap;
     }
 
-    .footer-back-to-top {
+    .back-to-top {
         margin-top: 20px;
-        width: 30px;
-        height: 30px;
-        margin-left: 340px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
     }
+}
+
+.to-top {
+    width: 30px;
+    height: 30px;
+
+    background-color: var(--primary);
+    border-radius: 50%;
+}
 }
