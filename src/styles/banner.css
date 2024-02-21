@@ -27,6 +27,10 @@
     right: 10px;
 }
 
+.ajudante-mobile {
+    display: none;
+}
+
 .sobreposicao {
     position: absolute;
     top: 0;
@@ -34,4 +38,30 @@
     width: 100%;
     height: 100%;
     background-color: rgba(12, 47, 137, 0.74);
+}
+
+@media only screen and (max-width: 414px) {
+    .retangulo-azul {
+        height: 345px;
+    }
+
+    .texto-banner {
+        font-size: 20px;
+        top: 90px;
+        left: 60px;
+    }
+
+    .ajudante {
+        display: none;
+    }
+
+    .ajudante-mobile {
+        display: block;
+        position: absolute;
+        top: 154px;
+    }
+
+    .sobreposicao {
+        height: 72%;
+    }
 }

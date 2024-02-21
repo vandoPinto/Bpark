@@ -45,3 +45,37 @@
 .newsletter-privacy p {
     font-size: 16px;
 }
+
+@media only screen and (max-width: 414px) {
+    .newsletter-content {
+        display: flex;
+        color: var(--white);
+        width: 100%;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter-content img {
+        width: 150px;
+    }
+
+    .newsletter-text {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .newsletter-form {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .newsletter-form input[type="text"] {
+        width: 170px;
+    }
+
+    .newsletter-privacy p {
+        font-size: 13px;
+        text-align: justify;
+    }
+}

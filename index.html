@@ -25,7 +25,8 @@
 <body>
     <header>
         <a href="#"><img src="./src/img/logo-01.svg" alt="Logo"></a>
-        <nav>
+        <img id="menu-toggle" class="menu-hamburger" src="./src/img/icons/hamburger-icon.svg" alt="menuHamburger">
+        <nav class="nav-menu">
             <ul>
                 <li><a href="#retangulo-azul">SOBRE</a></li>
                 <li><a href="#orcamento">SERVIÇOS</a></li>
@@ -34,6 +35,7 @@
             </ul>
         </nav>
     </header>
+
     <section>
         <div class="retangulo-azul" id="retangulo-azul">
             <img class="imagem-fundo" src="./src/img/Rectangle 1.webp" alt="imagem do estacionamento">
@@ -42,6 +44,7 @@
                 A 8 MINUTOS DO AEROPORTO<br>
                 INTERNACIONAL DE CONFINS.</span>
             <img class="ajudante" src="./src/img/Group 791.webp" alt="ajudante virtual">
+            <img class="ajudante-mobile" src="./src/img/Bel mobile.svg" alt="ajudante virtual">
         </div>
     </section>
     <section class="orcamento" id="orcamento">
@@ -162,19 +165,39 @@
                     </ul>
                 </nav>
             </header>
-            <hr>
-            <div class="footer-links">
+            <hr class="normal">
+            <div class="footer-links normal">
                 <p>© 2021 · Bpark Estacionamento- Todos direitos reservados</p>
                 <p><a href="#">Política de privacidade</a></p>
                 <p><a href="#">Termos de uso</a></p>
             </div>
         </div>
-        <div class="footer-contact">
-            <p class="title">Ligue agora:</p>
-            <p><span>(31)</span> 99559-0090</p>
+        <div class="normal">
+            <div class="footer-contact">
+                <p class="title">Ligue agora:</p>
+                <p><span>(31)</span> 99559-0090</p>
+            </div>
+            <div class="footer-back-to-top">
+                <a href="#" id="back-to-top-btn"><img src="./src/img/icons/cetaUp.svg" alt="botao voltar ao topo"></a>
+            </div>
         </div>
-        <div class="footer-back-to-top">
-            <a href="#" id="back-to-top-btn"><img src="./src/img/icons/cetaUp.svg" alt="botao voltar ao topo"></a>
+
+        <div class="container-mobile">
+            <div class="footer-contact mobile">
+                <p class="title">Ligue agora:</p>
+                <p><span>(31)</span> 99559-0090</p>
+            </div>
+            <hr>
+            <div class="footer-links mobile">
+                <p>© 2021 · Bpark Estacionamento- Todos direitos reservados</p>
+                <p><a href="#">Política de privacidade</a></p>
+                <p><a href="#">Termos de uso</a></p>
+            </div>
+
+
+            <div class="footer-back-to-top mobile">
+                <a href="#" id="back-to-top-btn"><img src="./src/img/icons/cetaUp.svg" alt="botao voltar ao topo"></a>
+            </div>
         </div>
     </footer>
     <script src="./src/scripts/script.js"></script>

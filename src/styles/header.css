@@ -12,9 +12,46 @@ header {
     padding: 40px;
 }
 
+.menu-hamburger {
+    display: none;
+}
+
+.nav-menu.active {
+    display: block;
+}
+
 header nav ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 30px;
+}
+
+@media only screen and (max-width: 414px) {
+    header {
+        gap: 40px;
+        justify-content: flex-end;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-hamburger {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 280px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 100;
+        width: 90%;
+        background-color: var(--white);
+        padding: 20px;
+    }
 }

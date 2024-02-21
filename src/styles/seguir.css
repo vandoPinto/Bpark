@@ -19,3 +19,17 @@
 .container-seguir img {
     width: 357px;
 }
+
+@media only screen and (max-width: 414px) {
+    .container-seguir {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .container-seguir img {
+        width: 200px;
+    }
+}
