@@ -1,0 +1,39 @@
+/* localizacao */
+.localizacao {
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 61px 50px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.mapa-container {
+    margin-top: 68px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.info {
+    text-align: justify;
+    color: var(--gray-secundary);
+    font-size: 24px;
+}
+
+.nome {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.informacoes {
+    font-size: 16px;
+    line-height: 1.5;
+}

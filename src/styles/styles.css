@@ -1,0 +1,31 @@
+@import url('./resete.css');
+@import url('./header.css');
+@import url('./banner.css');
+@import url('./orcamento.css');
+@import url('./time.css');
+@import url('./date.css');
+@import url('./banner-rotativo.css');
+@import url('./tarifa.css');
+@import url('./localizacao.css');
+@import url('./seguir.css');
+@import url('./newsletter.css');
+@import url('./footer.css');
+
+:root {
+    --primary: #DD562A;
+    --white: #FFFFFF;
+    --blue: #161955;
+    --blue-secundary: #2E4194;
+    --gray: #F3F3F3;
+    --gray-secundary: #6A6A6A;
+    --gray-tertiary: #606266;
+    --gray-quaternary: #E7ECF0;
+    --font-size-parent: 24px;
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: var(--primary);
+    font-weight: normal;
+}

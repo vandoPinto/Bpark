@@ -1,0 +1,183 @@
+<!-- https://www.figma.com/file/ZI3gGG2KidSf8Hw0TdrBF2/Prot%C3%B3tipo-%7C-Bpark-(Community)?type=design&node-id=4-11&mode=design&t=HRvm9J6l8kFPvoP4-0 -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de servico de estacionamento">
+    <meta name="theme-color" content="#FFFFFF" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.10.0/jquery.timepicker.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.10.0/jquery.timepicker.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <title>Bpark</title>
+</head>
+
+<body>
+    <header>
+        <a href="#"><img src="./src/img/logo-01.svg" alt="Logo"></a>
+        <nav>
+            <ul>
+                <li><a href="#retangulo-azul">SOBRE</a></li>
+                <li><a href="#orcamento">SERVIÇOS</a></li>
+                <li><a href="#tarifa">TARIFAS</a></li>
+                <li><a href="#newsletter">FALE CONOSCO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="retangulo-azul" id="retangulo-azul">
+            <img class="imagem-fundo" src="./src/img/Rectangle 1.webp" alt="imagem do estacionamento">
+            <div class="sobreposicao"></div>
+            <span class="texto-banner">ATENDIMENTO EXCLUSIVO,<br>
+                A 8 MINUTOS DO AEROPORTO<br>
+                INTERNACIONAL DE CONFINS.</span>
+            <img class="ajudante" src="./src/img/Group 791.webp" alt="ajudante virtual">
+        </div>
+    </section>
+    <section class="orcamento" id="orcamento">
+        <p class="titulo-orcamento">faça seu <b>ORÇAMENTO</b></p>
+        <p class="subtitulo-orcamento">Selecione as datas:</p>
+        <div class="container-inputs">
+            <div>
+                <input id="datepicker" class="date" type="text" placeholder="Entrada:  21/07/2024">
+                <input id="timePicker" class="time" type="text" placeholder="08:00">
+            </div>
+            <div>
+                <input id="datepicker2" class="date" type="text" placeholder="Saída:  21/07/2024">
+                <input id="timePicker2" class="time" type="text" placeholder="08:00">
+            </div>
+        </div>
+        <div class="container-botao"><button>CALCULAR</button></div>
+    </section>
+
+    <section class="banner">
+        <h1 class="title">DIFERENCIAIS <b>BPARK</b></h1>
+        <div class="arrows">
+            <img src="./src/img/icons/keyboard_arrow_right-1.png" alt="seta">
+            <img src="./src/img/icons/keyboard_arrow_right.png" alt="seta">
+        </div>
+        <div class="features">
+            <section class="feature">
+                <img src="./src/img/Bpark icons sala vip-01 1.webp" alt="icone de carro na sala VIP">
+                <p>SALA <b>VIP</b>.</p>
+            </section>
+            <section class="feature">
+                <img src="./src/img/Bpark icons traslado-01 1.webp" alt="icone de carro">
+                <p>Traslado gratuito para
+                    o aeroporto a cada
+                    <b>20 minutos</b>.
+                </p>
+            </section>
+            <section class="feature">
+                <img src="./src/img/Bpark icons FRALDARIO png-01 1.webp" alt="icone de fraldário">
+                <p><b>FRALDÁRIO</b>.</p>
+            </section>
+        </div>
+    </section>
+
+    <section class="tarifa" id="tarifa">
+        <h1><b>tarifas</b></h1>
+        <div class="container-tarifas">
+            <article class="tarifa-item">
+                <p class="tipo">diária</p>
+                <p class="valor"><span class="cifrao">R$</span> <span class="valor">15</span>,90</p>
+                <img src="./src/img/icons/Bpark-icons-car-01-01-3.svg" alt="icone carro" class="icone">
+            </article>
+            <article class="tarifa-item-centro">
+                <p class="tipo-centro">semanal</p>
+                <p class="valor-centro"><span class="cifrao">R$</span> <span class="valor">109</span>,90</p>
+                <img src="./src/img/icons/Bpark-icons-car-01-01-3.svg" alt="icone carro" class="icone-centro">
+            </article>
+            <article class="tarifa-item">
+                <p class="tipo">mensal</p>
+                <p class="valor"><span class="cifrao">R$</span> <span class="valor">220</span>,00</p>
+                <img src="./src/img/icons/Bpark-icons-car-01-01-3.svg" alt="icone carro" class="icone">
+            </article>
+        </div>
+        <p class="subtitle"><b>r$ 2,00</b> a cada hora excedente</p>
+    </section>
+    <section class="localizacao">
+        <h1>NOSSA <b>LOCALIZAÇÃO</b></h1>
+        <div class="mapa-container">
+            <iframe title="localizacao maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.8741513430273!2d-43.913316925246164!3d-19.6753737816566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa67d735aea62ed%3A0x14dc8106e797e223!2sAv.%20Paulo%20Ferreira%20da%20Costa%2C%20445%20-%20Vista%20Alegre%2C%20Lagoa%20Santa%20-%20MG%2C%2033400-000!5e0!3m2!1spt-BR!2sbr!4v1708516465299!5m2!1spt-BR!2sbr"
+                width="343" height="395" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="info">
+                <p class="nome"><b>Bpark Estacionamento</b><br><br></p>
+                <p class="informacoes">06.015.007/0001-63<br>
+                    Av. Paulo Ferreira da Costa, 445<br>
+                    Bairro: Vista Alegre - Lagoa Santa/MG<br>
+                    CEP: 33400-000 (31) 3681-9090 (31) 99559-0090<br>
+                    E-mail: bpark@bpark.com.br</p>
+            </div>
+        </div>
+    </section>
+    <section class="seguir">
+        <h1>SIGA O BPARK NO <b>INSTAGRAM</b></h1>
+        <div class="container-seguir">
+            <img src="./src/img/15-07.webp" alt="imagnes instagram">
+            <img src="./src/img/11-07.webp" alt="imagnes instagram">
+            <img src="./src/img/09-07.webp" alt="imagnes instagram">
+        </div>
+    </section>
+    <section class="newsletter" id="newsletter">
+        <div class="newsletter-content">
+            <img src="./src/img/icons/Bpark-icons-email-01.svg" alt="icone e-mail">
+            <div class="newsletter-text">
+                <p>Receba nossas <b>promoções</b> e<br>
+                    <b>novidades</b> em seu<b> e-mail</b>!
+                </p>
+                <div class="newsletter-form">
+                    <input type="text" name="" id="" placeholder="digite seu e-mail aqui">
+                    <button>Cadastrar</button>
+                </div>
+                <div class="newsletter-privacy">
+                    <input type="checkbox" id="checkbox">
+                    <p for="checkbox">Ao se cadastrar você concorda com as nossas políticas de privacidade</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <header>
+                <a href="#"><img src="./src/img/logo-01.svg" alt="Logo"></a>
+                <nav>
+                    <ul>
+                        <li><a href="#retangulo-azul">SOBRE</a></li>
+                        <li><a href="#orcamento">SERVIÇOS</a></li>
+                        <li><a href="#tarifa">TARIFAS</a></li>
+                        <li><a href="#newsletter">FALE CONOSCO</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <hr>
+            <div class="footer-links">
+                <p>© 2021 · Bpark Estacionamento- Todos direitos reservados</p>
+                <p><a href="#">Política de privacidade</a></p>
+                <p><a href="#">Termos de uso</a></p>
+            </div>
+        </div>
+        <div class="footer-contact">
+            <p class="title">Ligue agora:</p>
+            <p><span>(31)</span> 99559-0090</p>
+        </div>
+        <div class="footer-back-to-top">
+            <a href="#" id="back-to-top-btn"><img src="./src/img/icons/cetaUp.svg" alt="botao voltar ao topo"></a>
+        </div>
+    </footer>
+    <script src="./src/scripts/script.js"></script>
+</body>
+
+</html>

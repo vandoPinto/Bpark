@@ -1,0 +1,37 @@
+/* banner */
+.retangulo-azul {
+    width: 100%;
+    height: 845px;
+    position: relative;
+    display: inline-block;
+}
+
+.imagem-fundo {
+    width: 100%;
+    height: auto;
+}
+
+.texto-banner {
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--white);
+    position: absolute;
+    top: 410px;
+    left: 150px;
+    width: 540px;
+}
+
+.ajudante {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+
+.sobreposicao {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 47, 137, 0.74);
+}

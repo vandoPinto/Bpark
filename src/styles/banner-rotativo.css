@@ -1,0 +1,52 @@
+/* banner */
+.banner {
+    text-align: center;
+    padding: 61px 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.features {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    justify-content: space-between;
+}
+
+.features p {
+    font-size: 30px;
+    color: var(--gray-secundary);
+    text-align: center;
+    max-width: 330px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.arrows {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrows img {
+    cursor: pointer;
+}
+
+.arrows img:first-child {
+    margin-left: 0;
+}
+
+.arrows img:last-child {
+    margin-right: 0;
+}

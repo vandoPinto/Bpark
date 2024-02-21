@@ -1,0 +1,21 @@
+/* seguir */
+.seguir {
+    background-color: var(--gray);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 61px 50px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-seguir {
+    margin-top: 97px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container-seguir img {
+    width: 357px;
+}
