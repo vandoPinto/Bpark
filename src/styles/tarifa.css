@@ -1,5 +1,6 @@
 /* tarifa   */
 .tarifa {
+    position: relative;
     background-color: var(--gray);
     display: flex;
     align-items: center;
@@ -9,11 +10,16 @@
     flex-direction: column;
 }
 
+.arrows-tarifa {
+    display: none;
+}
+
 .container-tarifas {
     display: flex;
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    height: 424px;
 }
 
 .tarifa-item {
@@ -103,5 +109,17 @@
     .tarifa .subtitle {
         font-size: 17px;
         margin-top: 61px;
+    }
+
+    .arrows-tarifa {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        transform: translateY(-50%);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }

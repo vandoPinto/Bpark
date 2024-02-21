@@ -17,4 +17,54 @@ $(function () {
             $('.nav-menu').removeClass('active');
         }
     });
+
+    function carrocel(container, filhos, avancar, voltar) {
+        var features = $(`${container} ${filhos}`);
+        var currentIndex = 0;
+        var totalFeatures = features.length;
+        var displayLimit = 3;
+
+        // Função para mostrar o número apropriado de features com base no tamanho da tela
+        function updateDisplay() {
+            if ($(window).width() <= 900) {
+                displayLimit = 1;
+            } else {
+                displayLimit = 3;
+            }
+            features.hide();
+            features.slice(currentIndex, currentIndex + displayLimit).show();
+        }
+
+        // Inicializar a exibição
+        updateDisplay();
+
+        // Avançar para as próximas features
+        $(`${avancar}`).click(function () {
+            if (currentIndex + displayLimit < totalFeatures) {
+                features.hide();
+                currentIndex += displayLimit;
+                features.slice(currentIndex, currentIndex + displayLimit).show();
+            }
+        });
+
+        // Voltar para as features anteriores
+        $(`${voltar}`).click(function () {
+            if (currentIndex - displayLimit >= 0) {
+                features.hide();
+                currentIndex -= displayLimit;
+                features.slice(currentIndex, currentIndex + displayLimit).show();
+            }
+        });
+
+        // Atualizar a exibição quando o tamanho da tela mudar
+        $(window).resize(function () {
+            updateDisplay();
+            updateDisplay_tarifa();
+        });
+
+    }
+
+    carrocel('#features', '.feature', '#nextArrow', '#prevArrow');
+    carrocel('#features-tarifa', '.feature-tarifa', '#nextArrow-tarifa', '#prevArrow-tarifa');
+
 });

@@ -11,7 +11,8 @@
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
 }
 
 .features p {
@@ -26,6 +27,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    min-height: 420px;
 }
 
 .arrows {
