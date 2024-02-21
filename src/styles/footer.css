@@ -48,6 +48,7 @@
 }
 
 .footer-back-to-top {
+    position: absolute;
     background-color: var(--primary);
     border-radius: 50%;
     width: 50px;
@@ -55,7 +56,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -80px;
+    right: 20px;
+    margin-top: -10%;
 }
 
 .container-mobile {
@@ -121,13 +123,12 @@
         justify-content: flex-end;
         width: 100%;
     }
-}
 
-.to-top {
-    width: 30px;
-    height: 30px;
+    .to-top {
+        width: 30px;
+        height: 30px;
 
-    background-color: var(--primary);
-    border-radius: 50%;
-}
+        background-color: var(--primary);
+        border-radius: 50%;
+    }
 }
