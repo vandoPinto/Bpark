@@ -74,6 +74,10 @@
         width: 170px;
     }
 
+    .newsletter-form button {
+        width: 130px;
+    }
+
     .newsletter-privacy p {
         font-size: 13px;
         text-align: justify;

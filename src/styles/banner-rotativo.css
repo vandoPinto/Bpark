@@ -76,4 +76,13 @@
         min-height: 90vw;
         /* Redefinindo a altura mínima em vw */
     }
+
+    .arrows img:first-child {
+        width: 60px;
+    }
+
+    .arrows img:last-child {
+        width: 60px;
+    }
+
 }

@@ -105,9 +105,18 @@
  }
 
  @media only screen and (max-width: 900px) {
+     .tarifa-item {
+         margin-top: 0px;
+     }
+
+     .tarifa-item-centro {
+         transform: scale(0.8);
+         margin-top: 0px;
+     }
+
      .tarifa .subtitle {
          font-size: 17px;
-         margin-top: 61px;
+         margin-top: 20px;
      }
 
      .arrows-tarifa {
