@@ -18,7 +18,7 @@ $(function () {
         }
     });
 
-    function carrocel(container, filhos, avancar, voltar) {
+    function carrocel(container, filhos, avancar, voltar, mostrarTudo = false) {
         var features = $(`${container} ${filhos}`);
         var currentIndex = 0;
         var totalFeatures = features.length;
@@ -59,7 +59,6 @@ $(function () {
         // Atualizar a exibição quando o tamanho da tela mudar
         $(window).resize(function () {
             updateDisplay();
-            updateDisplay_tarifa();
         });
 
     }

@@ -1,7 +1,7 @@
-/* Orcamento */
 .orcamento {
     background-color: var(--blue);
-    padding: 60px;
+    padding: 6vw;
+    /* Usando vw para o preenchimento */
     display: flex;
     color: var(--white);
     justify-content: center;
@@ -10,57 +10,71 @@
 }
 
 .titulo-orcamento {
-    font-size: 40px;
+    font-size: 4vw;
+    /* Usando vw para o tamanho da fonte */
     text-transform: uppercase;
-    margin-bottom: 65px;
+    margin-bottom: 6vw;
+    /* Usando vw para a margem */
 }
 
 .subtitulo-orcamento {
-    font-size: 24px;
+    font-size: 2.4vw;
+    /* Usando vw para o tamanho da fonte */
     font-weight: bold;
-    margin-bottom: 37px;
+    margin-bottom: 3.7vw;
+    /* Usando vw para a margem */
 }
 
 .container-inputs {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 2vw;
+    /* Usando vw para a margem */
 }
 
 .container-inputs div {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 1vw;
+    /* Usando vw para a margem */
     position: relative;
 }
 
+/* Regras de estilo para telas menores */
 @media only screen and (max-width: 900px) {
     .orcamento {
-        padding: 40px;
+        padding: 4vw;
+        /* Redefinindo o preenchimento em vw */
     }
 
     .titulo-orcamento {
-        font-size: 23px;
-        margin-bottom: 30px;
+        font-size: 3vw;
+        /* Redefinindo o tamanho da fonte em vw */
+        margin-bottom: 3vw;
+        /* Redefinindo a margem em vw */
     }
 
     .subtitulo-orcamento {
-        font-size: 15px;
-        margin-bottom: 15px;
+        font-size: 1.5vw;
+        /* Redefinindo o tamanho da fonte em vw */
+        margin-bottom: 1.5vw;
+        /* Redefinindo a margem em vw */
     }
 
     .container-inputs {
-        gap: 20px;
+        gap: 2vw;
+        /* Usando vw para o espaçamento entre os elementos */
     }
 
     .container-inputs div {
         flex-direction: column;
-        gap: 20px;
+        gap: 2vw;
+        /* Usando vw para o espaçamento entre os elementos */
     }
 
-    .container-botao {
-        /* display: flex; */
-        justify-content: center !important;
-        margin-right: 0px !important;
+    .orcamento .container-botao-orcamento {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
     }
 }

@@ -1,7 +1,7 @@
 /* banner */
 .retangulo-azul {
     width: 100%;
-    height: 845px;
+    height: auto;
     position: relative;
     display: inline-block;
 }
@@ -12,19 +12,20 @@
 }
 
 .texto-banner {
-    font-size: 36px;
+    font-size: 4vw;
     font-weight: bold;
     color: var(--white);
     position: absolute;
-    top: 410px;
-    left: 150px;
-    width: 540px;
+    top: 25%;
+    left: 10%;
+    width: 80%;
 }
 
 .ajudante {
     position: absolute;
-    bottom: 0px;
-    right: 10px;
+    bottom: 0%;
+    right: 2%;
+    width: 30%;
 }
 
 .ajudante-mobile {
@@ -41,17 +42,12 @@
 }
 
 @media only screen and (max-width: 900px) {
-    .retangulo-azul {
-        height: 309px;
-    }
-
     .texto-banner {
         position: absolute;
         top: 10%;
-        left: 10%;
-        /* transform: translate(-50%, -50%); */
-        font-size: 20px;
-        width: 100%;
+        left: 5%;
+        font-size: 3vw;
+        width: 90%;
     }
 
     .ajudante {
@@ -61,12 +57,8 @@
     .ajudante-mobile {
         display: block;
         position: absolute;
-        top: 140px;
+        bottom: 0px;
         width: 100%;
         height: auto;
-    }
-
-    .sobreposicao {
-        height: 72%;
     }
 }

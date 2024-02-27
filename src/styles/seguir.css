@@ -10,14 +10,16 @@
 }
 
 .container-seguir {
-    margin-top: 97px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .container-seguir img {
     width: 357px;
+    margin-top: 40px;
 }
 
 @media only screen and (max-width: 900px) {

@@ -1,125 +1,124 @@
-/* tarifa   */
-.tarifa {
-    position: relative;
-    background-color: var(--gray);
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 61px 50px;
-    justify-content: center;
-    flex-direction: column;
-}
+ .tarifa {
+     position: relative;
+     background-color: var(--gray);
+     display: flex;
+     align-items: center;
+     text-align: center;
+     padding: 61px 50px;
+     justify-content: center;
+     flex-direction: column;
+ }
 
-.arrows-tarifa {
-    display: none;
-}
+ .arrows-tarifa {
+     display: none;
+ }
 
-.container-tarifas {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    height: 424px;
-}
+ .container-tarifas {
+     display: flex;
+     width: 100%;
+     justify-content: space-around;
+     align-items: center;
+     height: 424px;
+ }
 
-.tarifa-item {
-    background-color: var(--blue-secundary);
-    display: flex;
-    margin-top: 80px;
-    padding: 20px 20px 0px;
-    border-radius: 15px;
-    color: var(--white);
-    flex-direction: column;
-}
+ .tarifa-item {
+     background-color: var(--blue-secundary);
+     display: flex;
+     margin-top: 80px;
+     padding: 20px 20px 0px;
+     border-radius: 15px;
+     color: var(--white);
+     flex-direction: column;
+ }
 
-.tipo {
-    font-size: 40px;
-    text-transform: uppercase;
-}
+ .tipo {
+     font-size: 40px;
+     text-transform: uppercase;
+ }
 
-.valor {
-    font-size: 48px;
-    font-weight: bold;
-}
+ .valor {
+     font-size: 48px;
+     font-weight: bold;
+ }
 
-.valor .cifrao {
-    font-size: 24px;
-    font-weight: bold;
-    position: relative;
-    top: -33px;
-}
+ .valor .cifrao {
+     font-size: 24px;
+     font-weight: bold;
+     position: relative;
+     top: -33px;
+ }
 
-.valor .valor {
-    font-size: 72px;
-    font-weight: bold;
-}
+ .valor .valor {
+     font-size: 72px;
+     font-weight: bold;
+ }
 
-.icone {
-    width: 251px;
-    height: 112px;
-}
+ .icone {
+     width: 251px;
+     height: 112px;
+ }
 
-.tarifa .subtitle {
-    margin-top: 76px;
-    font-size: 40px;
-    color: var(--gray-secundary);
-    text-align: center;
-    text-transform: uppercase;
-}
+ .tarifa .subtitle {
+     margin-top: 76px;
+     font-size: 40px;
+     color: var(--gray-secundary);
+     text-align: center;
+     text-transform: uppercase;
+ }
 
-/* centro */
-.tarifa-item-centro {
-    background-color: var(--blue-secundary);
-    display: flex;
-    margin-top: 80px;
-    padding: 30px 30px 0px;
-    border-radius: 15px;
-    color: var(--white);
-    flex-direction: column;
-}
+ /* centro */
+ .tarifa-item-centro {
+     background-color: var(--blue-secundary);
+     display: flex;
+     margin-top: 80px;
+     padding: 30px 30px 0px;
+     border-radius: 15px;
+     color: var(--white);
+     flex-direction: column;
+ }
 
-.tipo-centro {
-    font-size: 50px;
-    text-transform: uppercase;
-}
+ .tipo-centro {
+     font-size: 50px;
+     text-transform: uppercase;
+ }
 
-.valor-centro {
-    font-size: 48px;
-    font-weight: bold;
-}
+ .valor-centro {
+     font-size: 48px;
+     font-weight: bold;
+ }
 
-.valor-centro .cifrao {
-    font-size: 36px;
-    font-weight: bold;
-    position: relative;
-    top: -33px;
-}
+ .valor-centro .cifrao {
+     font-size: 36px;
+     font-weight: bold;
+     position: relative;
+     top: -33px;
+ }
 
-.valor-centro .valor {
-    font-size: 96px;
-    font-weight: bold;
-}
+ .valor-centro .valor {
+     font-size: 96px;
+     font-weight: bold;
+ }
 
-.icone-centro {
-    width: 305px;
-    height: 136px;
-}
+ .icone-centro {
+     width: 305px;
+     height: 136px;
+ }
 
-@media only screen and (max-width: 900px) {
-    .tarifa .subtitle {
-        font-size: 17px;
-        margin-top: 61px;
-    }
+ @media only screen and (max-width: 900px) {
+     .tarifa .subtitle {
+         font-size: 17px;
+         margin-top: 61px;
+     }
 
-    .arrows-tarifa {
-        display: block;
-        position: absolute;
-        top: 50%;
-        left: 0px;
-        transform: translateY(-50%);
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-}
+     .arrows-tarifa {
+         display: block;
+         position: absolute;
+         top: 50%;
+         left: 0px;
+         transform: translateY(-50%);
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+     }
+ }
